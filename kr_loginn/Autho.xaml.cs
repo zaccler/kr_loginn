@@ -42,10 +42,10 @@ namespace kr_loginn
                     switch (roles.id)
                     {
                         case 1:
-                            MessageBox.Show("Привет, пользователь");
+                            MessageBox.Show("Привет, админ");
                             break;
                         case 2:
-                            MessageBox.Show("Привет, админ");
+                            MessageBox.Show("Привет, бухгалтер");
                             break;
                         default:
                             MessageBox.Show("Должность не определена.");
